@@ -7,7 +7,7 @@ int main(){
    
     cout<<endl;
 	charLine('-',30);
-	cout<<"Data type \t Size in Bytes\n";
+	cout<<"Data type \t "Size in Bytes\n";
 	charLine('-',30);
 	cout<<"Integer   \t"<<sizeof(int)<<"\n";
 	charLine('-',30);

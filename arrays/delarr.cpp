@@ -11,10 +11,13 @@ int main()
     cout<<"Enter the position of element you want to Delete ";
     cin>>pos;
     arr[pos-1]=0;
-
+    
+    for(int i=pos-1;i<5;i++){
+        arr[i]=arr[i+1];
+    }
 
      cout<<"Elements of new array are ";
-     for(int i=0;i<5;i++){
+     for(int i=0;i<4;i++){
      	cout<<arr[i]<<"  ";
      } 
 
